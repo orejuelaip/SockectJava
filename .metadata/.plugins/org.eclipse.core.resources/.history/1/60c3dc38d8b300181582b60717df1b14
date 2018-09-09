@@ -1,0 +1,36 @@
+package socket.operacion.ataque;
+import java.io.IOException;
+import java.io.ObjectOutputStream;
+import java.net.ServerSocket;
+import java.net.Socket;
+public class ServidorTorreControl {
+
+	private static final int PuertoUltraSecreto = 5544;
+	private static ServerSocket servidor = null;
+	
+	
+	public static void main(String[] args) {
+		try {
+			System.out.println("Inicio...");
+			Socket socket = new Socket("localhost",PuertoUltraSecreto);
+			System.out.println("Conexion exitosa con la base.");
+			ObjectOutputStream obj 
+			
+			
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+		
+	}
+	
+	
+	private static void LevantarServidor() throws IOException {
+		
+		System.out.println("Inicio LevantarServidor...");
+		servidor = new ServerSocket(PuertoUltraSecreto);
+		
+		System.out.println("Fin LevantarServidor...");
+		
+	}
+	
+}

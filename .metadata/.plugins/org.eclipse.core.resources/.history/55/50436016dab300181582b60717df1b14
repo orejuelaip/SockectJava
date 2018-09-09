@@ -1,0 +1,10 @@
+package socket.operacion.ataque;
+
+public class SoldadoTerminalCliente {
+	
+	private static final int PuertoUltraSecreto = 5544;
+	
+	public static void main(String[] args) {
+		
+	}
+}

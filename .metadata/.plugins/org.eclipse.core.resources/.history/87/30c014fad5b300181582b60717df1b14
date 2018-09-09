@@ -1,0 +1,7 @@
+package socket.operacion.dto;
+
+import java.io.Serializable;
+
+public class MensajeSecretoDTO implements Serializable{
+	
+}

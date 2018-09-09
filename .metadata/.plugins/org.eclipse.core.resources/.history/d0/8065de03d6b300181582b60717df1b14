@@ -1,0 +1,9 @@
+package socket.operacion.dto;
+
+import java.io.Serializable;
+
+public class MensajeSecretoDTO implements Serializable{
+	 private String idSoldadp;
+	 private String coordenada;
+	 private String mensajeSoldado;
+}

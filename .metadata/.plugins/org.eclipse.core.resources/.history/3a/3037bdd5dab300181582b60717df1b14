@@ -1,0 +1,20 @@
+package socket.operacion.ataque;
+
+import java.net.Socket;
+
+public class SoldadoTerminalCliente {
+	
+	private static final int PuertoUltraSecreto = 5544;
+	private static final String HostTorreControl = "localhost";
+	
+	public static void main(String[] args) {
+		try {
+			System.out.println("Soldado Delta 1 - Intentando conectarse.");
+			Socket socket = new Socket(HostTorreControl, PuertoUltraSecreto);
+			
+			
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+	}
+}

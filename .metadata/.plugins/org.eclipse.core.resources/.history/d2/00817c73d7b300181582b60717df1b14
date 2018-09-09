@@ -1,0 +1,19 @@
+package socket.operacion.ataque;
+import java.net.Socket;
+public class ServidorTorreControl {
+
+	private static final int PuertoUltraSecreto = 5544;
+	
+	public static void main(String[] args) {
+		System.out.println("Inicio...");
+		
+		Socket socket = new Socket();
+	}
+	
+	
+	private static void LevantarServidor() {
+		
+		
+	}
+	
+}
